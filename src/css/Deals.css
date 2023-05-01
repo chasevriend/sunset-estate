@@ -8,10 +8,11 @@
 }
 
 .deals__header h1 {
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
     font-weight: 900;
-    padding: 20px 25px;
+    padding: 10px 25px;
+    margin-bottom: 40px;
 }
 
 .deals__wrapper {
@@ -30,10 +31,12 @@
     width: 15rem;
     border-radius: 5px;
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3);
+    transition: all .2s ease-in-out;
 }
 
 .deals__cell:hover {
     box-shadow: 0 8px 12px 0 rgba(30, 64, 175);
+    transform: scale(1.1);
 }
 
 .dealsCell__img {
@@ -69,7 +72,6 @@
     font-size: 20px;
     padding: 5px 0;
     font-weight: 800;
-    color: rgb(29, 78, 216);
 }
 
 .deals__addy {
@@ -84,3 +86,5 @@
 b {
     color: rgb(29, 78, 216) !important;
 }
+
+

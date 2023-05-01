@@ -23,3 +23,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button {
+  transition: all .2s ease-in-out; 
+}
+
+button:hover {
+  transform: scale(1.1);
+}

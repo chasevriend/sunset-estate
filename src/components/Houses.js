@@ -9,6 +9,7 @@ const Houses = (props) => {
         <>     
             <div className='deals__cell'>
             <img src={props.img} alt='' className="dealsCell__img"/>
+            
                 <div className='dealsCell__content'>
                     <span>
                         <p className='deals__beds'>
@@ -33,7 +34,7 @@ const Houses = (props) => {
                             />
                         </p>
                     </span>
-                    <p className='deals__price'>${props.price}</p>
+                    <p className='deals__price text-blue-700'>${props.price}</p>
                     <p className='deals__addy'>
                         <LocationOnIcon 
                             style={{ 
