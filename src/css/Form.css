@@ -40,12 +40,16 @@
     padding: 5px 0;
     font-weight: 500;
     font-size: 18px;
+    background-color: #f8f8f8;
+    color: dimgray;
 }
 
 .form__container input {
     padding: 5px 0;
     font-weight: 500;
     font-size: 18px;
+    background-color: #f8f8f8;
+    color: dimgray;
 }
 
 .form__btn {

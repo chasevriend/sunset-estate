@@ -54,7 +54,7 @@ const Nav = () => {
                     </div>
                 </a>
                 <div className='nav__middle'>
-                    <Link to='/Home'>
+                    <Link to='/'>
                         Home
                     </Link>
                     <Link to='/About'>

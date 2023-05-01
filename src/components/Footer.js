@@ -1,5 +1,7 @@
 import React from 'react';
 import "../css/Footer.css";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import { IconButton } from '@mui/material';
 
 const Footer = () => {
   return (
@@ -16,6 +18,11 @@ const Footer = () => {
                 </span>
                 <p>Sunset Estates is not a real business or service. This is a software development 
                 project created by Chase Vriend.</p>
+                <IconButton>
+                  <GitHubIcon 
+                    style={{fontSize: '50px'}}
+                  />
+                </IconButton>
             </div>
         </section>
     </>

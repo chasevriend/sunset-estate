@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import AboutPage from './pages/AboutPage';
 import BuyPage from './pages/BuyPage';
 import SellPage from './pages/SellPage';
-import { ContactPage } from '@mui/icons-material';
+import ContactPage from './pages/ContactPage';
 
 function App() {
   return (

@@ -2,11 +2,11 @@
     font-size: 40px;
     font-weight: 900;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 10vh;
 }
 
 .about__container {
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-evenly;
     max-width: 75rem;
@@ -17,6 +17,7 @@
 .about__cell {
     text-align: center;
     padding: 10px 25px;
+    max-width: 25rem;
 }
 
 .about__cell h3 {
@@ -35,6 +36,16 @@
     width: 140px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.aboutBtn {
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 50%;
+    border-radius: 5px;
+    font-weight: 800;
+    margin-top: 15px;
 }
 
 @media (max-width: 850px) {

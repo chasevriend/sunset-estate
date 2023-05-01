@@ -3,6 +3,9 @@
     text-align: center;
     margin-top: 50px;
     padding: 30px 25px;
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
 }
 
 .footer__container h3 {
@@ -10,10 +13,11 @@
     font-size: 25px;
     font-weight: 800;
 }
-
+ 
 .footer__container span {
     display: flex;
     justify-content: center;
+    padding: 20px 20px;
 }
 
 .footer__container a {
