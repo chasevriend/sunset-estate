@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
         <section id='about'>
-            <h1 className='about__title'>See how Sunset Estates can help</h1>
+            <h1 className='about__title text-black'>See how Sunset Estates can help</h1>
             <div className='about__container'>
                 <div className='about__cell'>
                   <img src='https://www.trulia.com/images/icons/txl3/illustrations/BuyAHome.svg' alt='' className='about__img' />

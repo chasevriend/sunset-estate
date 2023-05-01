@@ -1,5 +1,7 @@
 import React from 'react';
 import "../css/Contact.css";
+import PhoneIcon from '@mui/icons-material/Phone';
+import EmailIcon from '@mui/icons-material/Email';
 
 const Contact = () => {
   return (
@@ -13,8 +15,18 @@ const Contact = () => {
                     <h2 className='text-4xl py-5 font-semibold'>Need additional information?</h2>
                     <p className='text-xl py-2 text-gray-600 font-medium'>The realest real estate company out here! Reach 
                     out to us with any questions or concerns.</p>
-                    <p className='text-2xl py-5 font-semibold'>(123) 456 - 7890</p>
-                    <p className='text-2xl font-semibold'>contact@sunsetestates.com</p>
+                    <p className='text-2xl py-5 font-semibold'>
+                        <PhoneIcon 
+                            style={{fontSize: '25px', marginRight: '5px'}}
+                        />
+                        (123) 456 - 7890
+                    </p>
+                    <p className='text-2xl font-semibold'>
+                        <EmailIcon 
+                            style={{fontSize: '25px', marginRight: '5px'}}
+                        />
+                        contact@sunsetestates.com
+                    </p>
                 </div>
                 <div className='contact__form'>
                     <form className='contactForm'>
