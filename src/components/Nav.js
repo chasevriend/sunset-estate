@@ -54,11 +54,26 @@ const Nav = () => {
                     </div>
                 </a>
                 <div className='nav__middle'>
-                    <a href='/'>Home</a>
+                    <Link to='/Home'>
+                        Home
+                    </Link>
+                    <Link to='/About'>
+                        About
+                    </Link>
+                    <Link to='/Buy'>
+                        Buy
+                    </Link>
+                    <Link to='/Sell'>
+                        Sell
+                    </Link>
+                    <Link to='/Contact'>
+                        Contact
+                    </Link>
+                    {/* <a href='/'>Home</a>
                     <a href='/About'>About</a>
                     <a href='/Buy'>Buy</a>
                     <a href='/Sell'>Sell</a>
-                    <a href='/Contact'>Contact</a>
+                    <a href='/Contact'>Contact</a> */}
                 </div>
                 <div className='nav__right'>
                     <button className='navRight__btn bg-blue-700'>Register</button>

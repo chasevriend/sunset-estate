@@ -12,11 +12,9 @@ const Home = () => {
         <Form />
         <About />
         <Deals />
-        {/* Newest Deals */}
-        {/* Footer */}
         <Footer />
     </>
   )
 }
 
-export default Home
+export default Home;

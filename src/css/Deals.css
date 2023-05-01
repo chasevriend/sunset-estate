@@ -1,6 +1,7 @@
 .deals__container {
     padding: 10px 25px;
-    margin-top: 50px;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
     max-width: 75rem;
     margin-left: auto;
     margin-right: auto;
@@ -10,7 +11,7 @@
     font-size: 35px;
     text-align: center;
     font-weight: 900;
-    padding: 10px 25px;
+    padding: 20px 25px;
 }
 
 .deals__wrapper {
@@ -51,25 +52,35 @@
 .dealsCell__content span {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .deals__beds {
     font-size: 15px;
-    color: dimgray;
+    align-items: center;
 }
 
 .deals__baths {
     font-size: 15px;
-    color: dimgray;
+    align-items: center;
 }
 
 .deals__price {
     font-size: 20px;
     padding: 5px 0;
-    font-weight: 600;
+    font-weight: 800;
+    color: rgb(29, 78, 216);
 }
 
 .deals__addy {
     font-size: 18px;
-    color: dimgray;
+    align-items: center;
+}
+
+.currentColor {
+    color: rgb(29, 78, 216) !important;
+}
+
+b {
+    color: rgb(29, 78, 216) !important;
 }
