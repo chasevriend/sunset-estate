@@ -1,0 +1,41 @@
+.footer__container {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px 25px;
+}
+
+.footer__container h3 {
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.footer__container span {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__container a {
+    padding: 10px 25px;
+    color: #e2e2e2;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer__container a:hover {
+    color: rgb(29 78 216);
+}
+
+.footer__container p {
+    padding: 10px 25px;
+    color: #e2e2e2;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+@media (max-width: 500px) {
+    .footer__container span {
+        flex-direction: column;
+    }
+}

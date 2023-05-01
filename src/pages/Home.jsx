@@ -3,6 +3,7 @@ import Nav from '../components/Nav';
 import Form from '../components/Form';
 import About from '../components/About';
 import Deals from '../components/Deals';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <Deals />
         {/* Newest Deals */}
         {/* Footer */}
+        <Footer />
     </>
   )
 }

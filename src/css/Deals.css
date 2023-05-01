@@ -1,0 +1,75 @@
+.deals__container {
+    padding: 10px 25px;
+    margin-top: 50px;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.deals__header h1 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 900;
+    padding: 10px 25px;
+}
+
+.deals__wrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+    /* grid-template-columns: repeat(4, 1fr);
+    display: grid; */
+}
+
+.deals__cell {
+    width: 15rem;
+    border-radius: 5px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3);
+}
+
+.deals__cell:hover {
+    box-shadow: 0 8px 12px 0 rgba(30, 64, 175);
+}
+
+.dealsCell__img {
+    width: 100%;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 175px;
+    object-fit: cover;
+}
+
+.dealsCell__content {
+    padding: 10px 10px;
+}
+
+.dealsCell__content span {
+    display: flex;
+    justify-content: space-between;
+}
+
+.deals__beds {
+    font-size: 15px;
+    color: dimgray;
+}
+
+.deals__baths {
+    font-size: 15px;
+    color: dimgray;
+}
+
+.deals__price {
+    font-size: 20px;
+    padding: 5px 0;
+    font-weight: 600;
+}
+
+.deals__addy {
+    font-size: 18px;
+    color: dimgray;
+}
