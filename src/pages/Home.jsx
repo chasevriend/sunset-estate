@@ -2,16 +2,15 @@ import React from 'react';
 import Nav from '../components/Nav';
 import Form from '../components/Form';
 import About from '../components/About';
-import Hero from '../components/Hero';
+import Deals from '../components/Deals';
 
 const Home = () => {
   return (
     <>
         <Nav />
         <Form />
-        <Hero />
         <About />
-        {/* <About /> */}
+        <Deals />
         {/* Newest Deals */}
         {/* Footer */}
     </>

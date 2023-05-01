@@ -1,0 +1,50 @@
+.about__title {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about__container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about__cell {
+    text-align: center;
+    padding: 10px 25px;
+}
+
+.about__cell h3 {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.about__cell p {
+    font-size: 18px;
+    font-weight: 600;
+    color: dimgray;
+}
+
+.about__img {
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 850px) {
+    .about__container {
+        display: flex;
+        flex-direction: column;
+    }
+    .about__cell {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

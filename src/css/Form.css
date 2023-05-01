@@ -1,0 +1,85 @@
+.form__banner {
+    background-image: url('https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg?cs=srgb&dl=pexels-the-lazy-artist-gallery-1642125.jpg&fm=jpg');
+    min-height: 50vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.form__container {
+    position: absolute;
+    bottom: 0;
+    margin: 20px;
+    width: 80%;
+    padding: 15px 25px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.form__container span {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__container label {
+    font-size: 20px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.form__container select {
+    padding: 5px 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.form__container input {
+    padding: 5px 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.form__btn {
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: white;
+    box-shadow: 0 4px 6px 0 rgba(30, 64, 175);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.form__container b {
+    color: rgb(29 78 216);
+}
+
+/* input:hover {
+    color: white;
+} */
+
+@media (max-width: 850px) {
+    .form__container {
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 5vh;
+    }
+    .form__btn {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form__container span {
+        text-align: center;
+    }
+    .form__container input {
+        text-align: center;
+    }
+}
