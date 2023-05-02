@@ -17,7 +17,7 @@ const createDeal = (HomesTerm) => {
     )
 }
 
-const Deals = (props) => {  
+const Deals = () => {  
     return (
     <>
         <section id='deals'>

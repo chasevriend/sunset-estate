@@ -1,78 +1,34 @@
 import React from 'react';
 import "../css/Buy.css";
-import LocationOnIcon from '@mui/icons-material/LocationOn';
-import BedIcon from '@mui/icons-material/Bed';
-import BathtubIcon from '@mui/icons-material/Bathtub';
+import Buys from './Buys';
+import Homes from './Homes';
 
-const createBuy = (HomesTerm) => {
+const createBuy = (BuyTerm) => {
   return (
-      <Houses 
-          key={HomesTerm.id}
-          img={HomesTerm.img}
-          bed={HomesTerm.bed}
-          bath={HomesTerm.bath}
-          price={HomesTerm.price}
-          address={HomesTerm.address}
+      <Buys 
+          key={BuyTerm.id}
+          img={BuyTerm.img}
+          bed={BuyTerm.bed}
+          bath={BuyTerm.bath}
+          price={BuyTerm.price}
+          address={BuyTerm.address}
       />
   )
 }
 
-const Buy = (props) => {
+const Buy = () => {
   return (
     <>
-        <div className='buy'>
-          <div className='buy__container'>
-            <div className='buy__map'>
+      <div className='buy'>
+        <div className='buy__container'>
+          <div className='buy__map'>
 
-            </div>
-            <div className='buy__listings'>
-              
-              <div className='buy__cell'>
-
-                <img src={props.img} alt='' className="buyCell__img"/>
-
-                <div className='buy__content'>
-                  <span>
-                    <p className='buy__beds'>
-                        <BedIcon 
-                            style={{ 
-                            fontSize: '15px',
-                            marginRight: '5px',
-                            marginBottom: '2px',
-                            borderColor: 'red',
-                            }}
-                        />
-                        {props.bed} beds
-                    </p>
-                    <p className='buy__baths'>
-                        {props.bath} baths
-                        <BathtubIcon 
-                        style={{
-                            fontSize: '15px',
-                            marginLeft: '5px',
-                            marginBottom: '2px'
-                        }}
-                        />
-                    </p>
-                  </span>
-                  <p className='buy__price text-blue-700'>${props.price}</p>
-                  <p className='buy__addy'>
-                        <LocationOnIcon 
-                            style={{ 
-                                fontSize: '18px',
-                                marginRight: '5px',
-                                marginBottom: '2px'
-                                }}
-                        />
-                        {props.address}
-                  </p>
-                </div>
-
-              </div>
-
-            </div>
+          </div>
+          <div className='buy__wrapper'>
+            {Homes.map(createBuy)}
           </div>
         </div>
+      </div>
     </>
   )
 }

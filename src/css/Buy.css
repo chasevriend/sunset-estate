@@ -16,5 +16,11 @@
     margin-left: auto;
     background-color: green;
     min-height: 90vh;
-    min-width: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.buy__cell {
+    max-height: 20vh;
 }
