@@ -4,7 +4,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import BedIcon from '@mui/icons-material/Bed';
 import BathtubIcon from '@mui/icons-material/Bathtub';
 
-const Houses = (props) => { 
+const Houses = (props) => {  
     return (
         <>     
             <div className='deals__cell'>
