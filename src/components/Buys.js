@@ -1,5 +1,4 @@
 import React from 'react';
-import Homes from './Homes';
 import "../css/Buy.css";
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import BedIcon from '@mui/icons-material/Bed';
@@ -16,8 +15,9 @@ const Buys = (props) => {
             <div className='buy__listings'>
               
               <div className='buy__cell'>
-
-                <img src={props.img} alt='' className="buyCell__img"/>
+                <div className='buyCell__img'>
+                    <img src={props.img} alt='' className="buy__img" />
+                </div>
 
                 <div className='buy__content'>
                   <span>
