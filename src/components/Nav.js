@@ -34,11 +34,6 @@ const Nav = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link onClick={openNav} to='/Sell'>
-                            Sell
-                        </Link>
-                    </li>
-                    <li>
                         <Link onClick={openNav} to='/Contact'>
                             Contact
                         </Link>
@@ -50,7 +45,7 @@ const Nav = () => {
             <div className='nav'>
                 <a href='/'>
                     <div className='nav__left'>
-                        <p>Sunset Estates</p>
+                        <p className='text-blue-700'>Sunset Estates</p>
                     </div>
                 </a>
                 <div className='nav__middle'>
@@ -62,9 +57,6 @@ const Nav = () => {
                     </Link>
                     <Link to='/Buy'>
                         Buy
-                    </Link>
-                    <Link to='/Sell'>
-                        Sell
                     </Link>
                     <Link to='/Contact'>
                         Contact

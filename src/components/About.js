@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
         <section id='about'>
-            <h1 className='about__title text-black'>See how Sunset Estates can help</h1>
+            <h1 className='about__title text-black'>See how <b>Sunset Estates</b> can help</h1>
             <div className='about__container'>
                 <div className='about__cell'>
                   <img src='https://www.trulia.com/images/icons/txl3/illustrations/BuyAHome.svg' alt='' className='about__img' />
@@ -22,7 +22,7 @@ const About = () => {
                   <h3>Sell a Home</h3>
                   <p>With our filters and custom keyword search, we can help you easily sell your home 
                   for a price you'll love.</p>
-                  <Link to='/Sell'>
+                  <Link to='/'>
                     <button className='aboutBtn bg-blue-700'>Sell</button>
                   </Link>
                 </div>

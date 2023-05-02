@@ -4,7 +4,6 @@ import { HashRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import AboutPage from './pages/AboutPage';
 import BuyPage from './pages/BuyPage';
-import SellPage from './pages/SellPage';
 import ContactPage from './pages/ContactPage';
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/About' element={<AboutPage />} />
           <Route path='/Buy' element={<BuyPage />} />
-          <Route path='/Sell' element={<SellPage />} />
           <Route path='/Contact' element={<ContactPage />} />
         </Routes>
       </Router>
