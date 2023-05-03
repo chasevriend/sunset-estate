@@ -1,10 +1,10 @@
 .deals__container {
     padding: 10px 25px;
     margin-top: 15vh;
-    margin-bottom: 15vh;
     max-width: 75rem;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5vh;
 }
 
 .deals__header h1 {
@@ -87,4 +87,13 @@ b {
     color: rgb(29, 78, 216) !important;
 }
 
+.dealsContainer__maps {
+    max-width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vh;
+}
 
+.dealsContainer__maps:hover {
+    box-shadow: 0 8px 12px 0 rgba(30, 64, 175);
+}

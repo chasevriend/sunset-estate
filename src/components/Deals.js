@@ -29,6 +29,9 @@ const Deals = () => {
                     {Homes.map(createDeal)}
                 </div>
             </div>
+            <div className='dealsContainer__maps'>
+                <iframe src="https://my.atlistmaps.com/map/73e12fe2-e405-46a6-9fc0-ce030ebdf9c9?share=true" allow="geolocation 'self' https://my.atlistmaps.com" width="100%" height="400px" frameborder="0" scrolling="no" allowfullscreen></iframe>
+            </div>
         </section>
     </>
   )

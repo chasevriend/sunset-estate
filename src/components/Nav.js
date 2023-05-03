@@ -55,8 +55,11 @@ const Nav = () => {
                     <Link to='/About'>
                         About
                     </Link>
-                    <Link to='/Buy'>
+                    <Link to='/'>
                         Buy
+                    </Link>
+                    <Link to='/'>
+                        Sell
                     </Link>
                     <Link to='/Contact'>
                         Contact
