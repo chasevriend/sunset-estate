@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sunset-estate/static/css/main.b89b1a6e.css",
+    "main.js": "/sunset-estate/static/js/main.590aa1ca.js",
+    "index.html": "/sunset-estate/index.html",
+    "main.b89b1a6e.css.map": "/sunset-estate/static/css/main.b89b1a6e.css.map",
+    "main.590aa1ca.js.map": "/sunset-estate/static/js/main.590aa1ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b89b1a6e.css",
+    "static/js/main.590aa1ca.js"
+  ]
+}
