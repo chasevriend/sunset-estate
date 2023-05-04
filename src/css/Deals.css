@@ -92,8 +92,7 @@ b {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10vh;
+    border-radius: 5px;
+    padding: 10px 25px;
 }
 
-.dealsContainer__maps:hover {
-    box-shadow: 0 8px 12px 0 rgba(30, 64, 175);
-}
